@@ -1,7 +1,7 @@
 
 # CAPSTONE FRONTEND AIRBNB (USING REACTJS)
 
-Click here --> <a href="https://airbnb.phamducdat.id.vn/" target="_blank">Movie Website</a>
+Click here --> <a href="https://airbnb.phamducdat.id.vn/" target="_blank">AirBnB Website</a>
 </br>
 Click here --> <a href="https://github.com/ducdatit2002/Capstone-AirBnB-FE" target="_blank">GitHub</a>
 </br>
