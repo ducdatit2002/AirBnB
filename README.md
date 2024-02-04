@@ -2,6 +2,7 @@
 # CAPSTONE FRONTEND AIRBNB (USING REACTJS)
 
 Click here --> <a href="https://airbnb.phamducdat.id.vn/" target="_blank">Movie Website</a>
+
 Click here --> <a href="https://github.com/ducdatit2002/Capstone-AirBnB-FE" target="_blank">GitHub</a>
 Click here --> <a href="https://www.youtube.com/watch?v=Z2hGVObDybk" target="_blank">Video Demo</a>
 
@@ -23,6 +24,16 @@ Click here --> <a href="https://www.youtube.com/watch?v=Z2hGVObDybk" target="_bl
 | Đức Đạt     | Trang chủ, đăng ký, đăng nhập, thông tin cá nhân, admin page   |   
 | Ngọc Nhân   | Danh sách phòng, chi tiết phòng, tính năng đặt phòng, admin page   |    
     
+
+## Links
+
+In the project directory, you can:
+
+Home: http://localhost:3000/
+Admin: http://localhost:3000/admin
+Danh sách phòng: http://localhost:3000/detail/:id
+Chi tiết phòng: http://localhost:3000/room/:id/:id/:id
+
 
 
 
