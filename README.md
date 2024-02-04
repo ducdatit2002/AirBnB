@@ -30,8 +30,11 @@ Click here --> <a href="https://www.youtube.com/watch?v=Z2hGVObDybk" target="_bl
 In the project directory, you can:
 
 Home: http://localhost:3000/
+</br>
 Admin: http://localhost:3000/admin
+</br>
 Danh sách phòng: http://localhost:3000/detail/:id
+</br>
 Chi tiết phòng: http://localhost:3000/room/:id/:id/:id
 
 
