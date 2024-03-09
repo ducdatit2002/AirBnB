@@ -31,13 +31,13 @@ Click here --> <a href="https://www.youtube.com/watch?v=Z2hGVObDybk" target="_bl
 
 In the project directory, you can:
 
-Home: http://localhost:3000/
+Home: https://airbnb.phamducdat.id.vn/
 </br>
-Admin: http://localhost:3000/admin
+Admin: https://airbnb.phamducdat.id.vn/admin
 </br>
-Danh sách phòng: http://localhost:3000/detail/:id
+Danh sách phòng: https://airbnb.phamducdat.id.vn/detail/:id
 </br>
-Chi tiết phòng: http://localhost:3000/room/:id/:id/:id
+Chi tiết phòng: https://airbnb.phamducdat.id.vn//room/:id/:id/:id
 
 ## Admin account
 Tài khoản: 
