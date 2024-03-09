@@ -39,9 +39,9 @@ export default function Admin({ Component }) {
   const localUser = localServ.user.get();
   if (localUser?.user.role !== "ADMIN") {
     message.warn("Bạn không đươc phép truy cập vào trang này");
-    // setTimeout(() => {
-    //   navigate("/");
-    // }, 2000);
+    setTimeout(() => {
+      navigate("/");
+    }, 2000);
   }
   return (
     <div>
