@@ -7,7 +7,8 @@ Click here --> <a href="https://github.com/ducdatit2002/Capstone-AirBnB-FE" targ
 </br>
 Click here --> <a href="https://www.youtube.com/watch?v=Z2hGVObDybk" target="_blank">Video Demo</a>
 </br>
-
+Click here --> <a href="https://www.canva.com/design/DAF-eF8rJbM/sNobNN8GGh9rqGrY0875kA/view?utm_content=DAF-eF8rJbM&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">Canva Sldie</a>
+</br>
 ### Our team member
 | Index | Name                |      Github account             |
 |:------|:-----------------------|:---------------------------|
