@@ -40,8 +40,14 @@ Danh sách phòng: http://localhost:3000/detail/:id
 Chi tiết phòng: http://localhost:3000/room/:id/:id/:id
 
 ## Admin account
-Tài khoản: ```pedatdethuong312@gmail.com```
-Mật khảu: ```pedatdethuong312@gmail.com```
+Tài khoản: 
+```
+pedatdethuong312@gmail.com
+```
+Mật khảu: 
+```
+pedatdethuong312@gmail.com
+```
 
 
 ## Available Scripts
