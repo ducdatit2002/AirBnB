@@ -1,0 +1,391 @@
+{
+	"info": {
+		"_postman_id": "63e53e61-28db-4805-9a70-c1eca77d0aa9",
+		"name": "Capstone-AirBnB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30124089"
+	},
+	"item": [
+		{
+			"name": "Sign-up",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"PHẠM ĐỨC ĐẠT\",\n    \"email\": \"ducdatit@gmail.com\",\n    \"password\": \"Ducdat8402@@\",\n    \"phone\": \"0902850104\",\n    \"birthday\": \"2004-02-05T14:54:22.688Z\",\n    \"gender\": \"Male\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/auth/sign-up"
+			},
+			"response": []
+		},
+		{
+			"name": "Sign-in",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"ducdatit@gmail.com\",\n  \"password\": \"Ducdat8402@@\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/auth/sign-in"
+			},
+			"response": []
+		},
+		{
+			"name": "Change-password",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"oldPassword\": \"Ducdat8402@@\",\n  \"newPassword\": \"Ducdat8402@\",\n  \"confirmedNewPassword\": \"Ducdat8402@\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/auth/change-password/25"
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/users"
+			},
+			"response": []
+		},
+		{
+			"name": "user-new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Phạm Đức Nhàn\",\n    \"email\": \"pedatdethuong@gmail.com\",\n    \"password\": \"Dat@2348\",\n    \"phone\": \"0923392031\",\n    \"birthday\": \"2004-02-05T14:54:22.688Z\",\n    \"gender\": \"Male\",\n    \"role\": \"Admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/users/new"
+			},
+			"response": []
+		},
+		{
+			"name": "user-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Phạm Đức Nhàn\",\n    \"email\": \"pedatdethuong@gmail.com\",\n    \"password\": \"Dat@2348\",\n    \"phone\": \"09233920321\",\n    \"birthday\": \"2004-02-05T14:54:22.688Z\",\n    \"gender\": \"Female\",\n    \"role\": \"Admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/users/update/1"
+			},
+			"response": []
+		},
+		{
+			"name": "user-delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Phạm Đức Nhàn\",\n    \"email\": \"pedatdethuong@gmail.com\",\n    \"password\": \"Dat@2348\",\n    \"phone\": \"09233920321\",\n    \"birthday\": \"2004-02-05T14:54:22.688Z\",\n    \"gender\": \"Female\",\n    \"role\": \"Admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/users/delete/1"
+			},
+			"response": []
+		},
+		{
+			"name": "locations-new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"address\": \"4489 Kincheloe Road\",\n    \"city\": \"HCMC\",\n    \"country\": \"VIETNAM\",\n    \"photo\": \"dfe.png\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/locations/new"
+			},
+			"response": []
+		},
+		{
+			"name": "locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/locations"
+			},
+			"response": []
+		},
+		{
+			"name": "locations-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"address\": \"4489 Kincheloe Road\",\n    \"city\": \"HCMC\",\n    \"country\": \"VIETNAM\",\n    \"photo\": \"dfe.png\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/locations/update/1"
+			},
+			"response": []
+		},
+		{
+			"name": "locations-delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"address\": \"4489 Kincheloe Road\",\n    \"city\": \"HCMC\",\n    \"country\": \"VIETNAM\",\n    \"photo\": \"dfe.png\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/locations/delete/1"
+			},
+			"response": []
+		},
+		{
+			"name": "rooms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/rooms"
+			},
+			"response": []
+		},
+		{
+			"name": "rooms-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"location_id\": 1,\n    \"location\": 1,\n    \"price\": 10000,\n    \"description\": \"tuyệt vời\",\n    \"photo\": \"\",\n    \"beds\": 2,\n    \"bathrooms\": 2,\n    \"guests\": 4,\n    \"bedrooms\": 2,\n    \"washing_machine\": \"true\",\n    \"electric_iron\": \"false\",\n    \"television\": \"true\",\n    \"air_conditioner\": \"true\",\n    \"wifi\": \"true\",\n    \"stove\": \"true\",\n    \"parking\": \"true\",\n    \"swimming_pool\": \"true\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "/http://localhost:8080/api/rooms/update/1"
+			},
+			"response": []
+		},
+		{
+			"name": "rooms-new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"location_id\": 1,\n    \"location\": 1,\n    \"price\": 10000,\n    \"description\": \"tuyệt vời\",\n    \"photo\": \"\",\n    \"beds\": 2,\n    \"bathrooms\": 2,\n    \"guests\": 4,\n    \"bedrooms\": 2,\n    \"washing_machine\": \"true\",\n    \"electric_iron\": \"false\",\n    \"television\": \"true\",\n    \"air_conditioner\": \"true\",\n    \"wifi\": \"true\",\n    \"stove\": \"true\",\n    \"parking\": \"true\",\n    \"swimming_pool\": \"true\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/rooms/new"
+			},
+			"response": []
+		},
+		{
+			"name": "rooms-delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"location_id\": 1,\n    \"location\": 1,\n    \"price\": 10000,\n    \"description\": \"tuyệt vời\",\n    \"photo\": \"\",\n    \"beds\": 2,\n    \"bathrooms\": 2,\n    \"guests\": 4,\n    \"bedrooms\": 2,\n    \"washing_machine\": \"true\",\n    \"electric_iron\": \"false\",\n    \"television\": \"true\",\n    \"air_conditioner\": \"true\",\n    \"wifi\": \"true\",\n    \"stove\": \"true\",\n    \"parking\": \"true\",\n    \"swimming_pool\": \"true\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/rooms/delete/1"
+			},
+			"response": []
+		},
+		{
+			"name": "reservations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/reservations"
+			},
+			"response": []
+		},
+		{
+			"name": "reservations-new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"reserved_by_id\": 2,\n    \"reserved_by\": \"Đức Đạt\",\n    \"room_id\": 2,\n    \"guests\": 2,\n    \"arrival\": \"2024-02-05T14:54:22.688Z\",\n    \"departure\": \"2024-02-10T14:54:22.688Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/reservations/new"
+			},
+			"response": []
+		},
+		{
+			"name": "reservations-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"reserved_by_id\": 2,\n    \"reserved_by\": \"Đức Đạt\",\n    \"room_id\": 2,\n    \"guests\": 2,\n    \"arrival\": \"2024-02-05T14:54:22.688Z\",\n    \"departure\": \"2024-02-10T14:54:22.688Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/reservations/update/1"
+			},
+			"response": []
+		},
+		{
+			"name": "reservations-delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"reserved_by_id\": 2,\n    \"reserved_by\": \"Đức Đạt\",\n    \"room_id\": 2,\n    \"guests\": 2,\n    \"arrival\": \"2024-02-05T14:54:22.688Z\",\n    \"departure\": \"2024-02-10T14:54:22.688Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/reservations/delete/1"
+			},
+			"response": []
+		},
+		{
+			"name": "comments-new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"room_id\": 2,\n    \"room\": 2,\n    \"created_by_id\": 2,\n    \"created_by\": \"Đức Đạt\",\n    \"date\": \"2024-02-10T14:54:22.688Z\",\n    \"content\": \"tuyệt\",\n    \"rated\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/comments/new"
+			},
+			"response": []
+		},
+		{
+			"name": "comments-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"room_id\": 2,\n    \"room\": 2,\n    \"created_by_id\": 2,\n    \"created_by\": \"Đức Đạt\",\n    \"date\": \"2024-02-10T14:54:22.688Z\",\n    \"content\": \"tuyệt\",\n    \"rated\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/comments/update/1"
+			},
+			"response": []
+		},
+		{
+			"name": "comments-delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"room_id\": 2,\n    \"room\": 2,\n    \"created_by_id\": 2,\n    \"created_by\": \"Đức Đạt\",\n    \"date\": \"2024-02-10T14:54:22.688Z\",\n    \"content\": \"tuyệt\",\n    \"rated\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/comments/delete/1"
+			},
+			"response": []
+		},
+		{
+			"name": "comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/comments"
+			},
+			"response": []
+		}
+	]
+}
